@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intern</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>THERAPY</h1>
+        <p>1313 Jukdaure Farm Road, Cary, NC 277511<br/>
+            <a style="text-decoration: none;color: black;" href="">(984) 687-5190</a>
+        </p>
+        <div class="for_gap">
+            <a style="text-decoration: none;color: black;" href="" class="menu-item">Home</a>
+            <a style="text-decoration: none;color: black;" href="" class="menu-item">Pricing</a>
+            <i class="ri-menu-line" id="menu-button"></i>
+        </div>
+    </div>
+
+    <div class="first_part">
+        <div class="paragraph">
+            <h1>Therapy Nail Spa</h1>
+            <p>Welcome to Therapy Nail Spa, the premier destination for unparalleled nail and spa services in Cary, NC. Step into our oasis and experience indulgence and luxury like never before. Our extensive range of services includes luxurious nail treatments for flawless hands and feet, as well as expert body waxing for silky-smooth skin.
+            </p>
+            <p>As the newest full-service salon in Cary, NC 27511, Therapy Nail Spa is staffed by an award-winning team dedicated to providing the highest quality salon experience. We use only the finest products to ensure superior results. We invite you to treat yourself to the best! Discover why we are a premier destination for luxury and relaxation. Committed to your satisfaction, we strive to exceed your expectations with every visit.</p>
+        </div>
+        <div >
+           <div class="therapy"></div>
+
+        </div>
+    </div>
+
+    <div class="second_part">
+            <h1>Hours and Location</h1>
+             <div class="bottom_border"></div>
+            <p>Therapy Nail Spa is located in Cary, NC at the Shoppes of Killdaire. Our address is 1313 Kildaire Farm Road, Cary, NC 27511. The salon is located next to Barnes and Noble and Trader Joes.</p>
+            <p>To book an appointment please call our salon at <a href="">(984) 687-5190</a></p>
+
+            <div class="table">
+                <h1>Hours of Operation</h1>
+                <div>
+                    <p>Monday -Saturday</p>
+                    <p>10:00 am - 7:00 pm</p>
+                </div>
+                <div>
+                    <p>Sunday</p>
+                    <p style="color: rgb(201, 53, 53);">Closed</p>
+                </div>
+             </div>
+    </div>
+
+    <div class="third_part">
+        <h1>Featured Services</h1>
+        <div class="bottom_border"></div>
+        <div class="card_div">
+            <div class="card">
+                <div style="display: flex; gap: 20px;">
+                    <i class="ri-shining-2-line"></i>
+                    <h1>Nail Treatments</h1>
+                </div>
+                <p>Treat your hands and feet to some love! Our nail treatments are all about making your nails look and feel fantastic. Sit back, relax, and let our experts pamper you.</p>
+            </div>
+            <div class="card">
+                <div style="display: flex; gap: 20px;">
+                   <i class="ri-shining-2-line"></i>
+                   <h1>Nail Treatments</h1>
+               </div>
+               <p>Get nails that stand out! Whether you want longer nails or some cool nail art, our talented team can make your nail dreams come true. Express yourself with nails that show off your style.</p>
+            </div>
+            <div class="card">
+                <div style="display: flex; gap: 20px;">
+                    <i class="ri-shining-2-line"></i>
+                    <h1>Head Spa</h1>
+                </div>
+                <p>Step into a world of magic with our scalp treatments and therapeutic service, where our licensed technicians provide soothing treatments for your scalp, head, neck, and shoulders. Feel revitalized as we boost your hair health and melt away stress, leaving you with a radiant glow and a calm mind.</p>
+            </div>
+            <div class="card">
+                <div style="display: flex; gap: 20px;">
+                    <i class="ri-shining-2-line"></i>
+                    <h1>Hot Wax</h1>
+                </div>
+                <p>Smooth and silky, just the way you like it! Our hot wax services will leave your skin feeling super soft and hair-free. Get ready to flaunt that confident glow!</p>
+            </div>
+        </div>
+        <h1>View all of our services with current pricing&nbsp;&nbsp;<a href="">here!</a></h1>
+    </div>
+
+    <div class="fourth_part">
+        <h1 style="color: white;padding-top: 20px;">Contact Us</h1>
+        <div >
+            <div class="first_div">
+                <i class="ri-map-pin-fill" ></i>
+                <h1>Location</h1>
+                <p>1313 Kildaire Farm Road, Cary, NC 27511</p>
+            </div>
+            <div class="first_div">
+                <i class="ri-phone-fill"></i>
+                <h1>Phone</h1>
+                <a href="">(984) 687-5190</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <p style="text-align: center;">Copyright © 2024 TherapyNailSpa</p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    const menuButton = document.getElementById('menu-button');
+    const menuItems = document.querySelectorAll('.menu-item');
+
+    menuButton.addEventListener('click', function() {
+        menuItems.forEach(item => {
+            item.classList.toggle('show');
+        });
+    });
+});
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,342 @@
+
+*{
+    box-sizing: border-box;
+}
+.nav{
+    
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap: 10%;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 0%;
+    font-size: 1.6vw;
+}
+.nav .for_gap{
+    display: flex;
+    gap: 30px;
+}
+.nav h1{
+   font-weight: 400;
+    font-style:normal
+}
+.nav p:nth-child(2){
+    line-height: 25px;
+}
+
+
+#menu-button {
+    display: none;
+}
+
+/* ----------first part-------------*/
+.first_part{
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(236, 124, 195);
+   
+}
+.first_part div:nth-child(2){
+   
+    width: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.first_part .therapy{
+   
+    border-radius: 5px;
+    width: 80%;
+    background-image: url(therapy.jpg);
+    height: 30vw;
+    background-size:100% 100%;
+    background-position: center;
+}
+.first_part h1{
+    display: flex;
+    justify-content: center;
+}
+.first_part .paragraph{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width:50%;
+    margin:0px 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
+    
+}
+
+/* ------------------------------*/
+
+/* -----------second part-----------*/
+.second_part{
+    margin: auto;
+    width: 95%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.second_part h1{
+   
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom:15px 
+}
+.bottom_border
+{    
+    width: 17%;
+    margin: auto;
+    border: 2px solid  rgb(236, 124, 195);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.second_part>p:nth-of-type(1){
+    font-size: 18px;
+}
+.second_part>p:nth-of-type(2){
+    font-size: 18px;
+}
+.second_part >p:nth-last-child(2){
+   margin-bottom: 40px;
+}
+.second_part .table{
+    border: 2px solid black;
+    width: 45%;
+    margin: auto;
+}
+.table h1{
+    color: white;
+    width: 100%;
+    background-color:  rgb(236, 124, 195);
+    border-bottom: 2px solid black;
+    font-size: large;
+    padding: 4px 0 4px 0;
+  
+    margin: 0%;
+}
+.table div{
+    display: flex;
+}
+.table p{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+    margin: 0%;
+}
+.table > div:first-of-type > p:nth-child(1){
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+.table > div:first-of-type > p:nth-child(2){
+    border-bottom: 2px solid black;
+}
+.table > div:last-child> p:nth-child(1){
+    border-right: 2px solid black;
+}
+
+/* ------------------------------*/
+/* ----------third page---------------*/
+.third_part{
+width: 95%;
+margin: 40px auto;
+}
+.third_part >h1:nth-of-type(1){
+    width: 60%;
+    margin: 20px auto ;
+    display: flex;
+    justify-content: center;  
+}
+
+.third_part .card_div{
+    width: 90%;
+    margin:50px auto;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+.card_div .card{
+    margin: auto;
+    border: 2px solid  rgb(147, 128, 140) ;
+    border-radius: 5px;
+    width: 45%;
+    height: 220px;
+    padding: 20px;
+}
+.card i{
+   font-size: larger;
+    color: rgb(236, 124, 195) ;
+    display: flex;
+    align-items: center;
+}
+.card h1{
+    font-size: 24px;
+    margin: 0%;
+}
+.card p{
+    font-size: 19px;
+    line-height: normal;
+    font-weight: 300;
+    opacity: 70%;
+}
+.third_part h1:nth-child(4){
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* ------------------------------*/
+/* -----------fourth part------------*/
+.fourth_part{
+    width: 100%;
+    background-color:  rgb(236, 124, 195);
+    text-align: center;
+}
+.fourth_part>div:nth-of-type(1){
+   
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.first_div i{
+    font-size: 45px;
+    color: white;
+}
+.first_div h1{
+    font-size: 26px;
+    color: white;
+    font-weight: 600;
+}
+.first_div p{
+    color: white;
+}
+.first_div a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* ------------------------------*/
+
+@media (max-width:576px) {
+    .nav{
+         font-size: 3.3vw;
+        padding: 0 20px 0 10px;
+    }
+    
+    .for_gap a{
+        display: none;
+    }
+    .for_gap i{
+        font-size:x-large;
+       
+    }
+    .menu-item {
+        display: block; /* Initially hide these menu items on small screens */
+    }
+
+    #menu-button {
+        display: block; /* Show the menu button on small screens */
+    }
+
+    .menu-item.show {
+        display: block; /* Show menu items when toggled */
+    }
+
+
+   .first_part{
+    flex-direction: column;
+   }
+   
+   .first_part .paragraph{
+    width: 90%;
+    font-size: 20px;
+   margin: auto;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   .first_part div:nth-child(2){
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+   }
+   .first_part .therapy{
+    width: 90%;
+    height: 15rem;
+   }
+/* -----------second part-----------*/
+   .second_part{
+    margin: auto;
+    width: 90%;
+   }
+  .second_part h1{
+    font-size: 25px;
+    width: 65%;
+    
+  }
+  .second_part>div:first-of-type{
+    width: 50%;
+}
+    .second_part p{
+        font-size: 18px;
+    }
+.second_part .table{
+    width: 100%;
+}
+.table h1{
+    width: 100%;
+}
+
+/* ---------------------------------*/
+
+/* ------------third part---------------*/
+.third_part{
+   
+    width: 95%;
+}
+.third_part h1{
+    font-size: 25px;
+    width: 65%;
+  }
+  .third_part .bottom_border{
+    width: 40%;
+    margin: auto;
+}
+.card_div{
+    width: 100%;
+}
+.card_div .card{
+    width: 90%;
+    height: auto;
+}
+.card h1{
+    font-size: 22px;
+}
+.third_part h1:nth-child(4){
+    font-size:18px ;
+    width: 75%;
+    margin: auto;
+   text-align: center;
+}
+/* ---------------------------------*/
+/* -----------fourth part---------------*/
+.fourth_part{
+    width: 100%;
+}
+.fourth_part>div:nth-of-type(1){
+    width: 100%;
+   flex-direction: column;
+   padding: 30px 0%;
+}
+/* ---------------------------------*/
+}
